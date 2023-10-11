@@ -1,0 +1,61 @@
+Code status questionnaire:
+
+Please complete this questionnaire by selecting the appropriate answer for each question. Then include this file in the code that you send to your customers.
+
+Import/export features:
+
+Load a PPM file implementation: Y
+Script command to load a PPM file: Y
+Load PPM file from GUI: Y
+
+Load a PNG/JPG file implementation: Y
+Script command to load a PNG/JPG file: Y
+Load PNG/JPG file from GUI: Y
+
+Save a PPM file implementation: Y
+Script command to save a PPM file: Y
+Save PPM file from GUI: Y
+
+Save a PNG/JPG file implementation: Y
+Script command to save a PNG/JPG file: Y
+Save PNG/JPG file from GUI: Y
+
+
+Image manipulations:
+
+Visualize various image components implementation: Y
+Script commands to load various image components: Y
+Visualize various image components from GUI: Y
+
+Flip an image horizontally implementation: Y
+Script command to flip an image horizontally: Y
+Flip an image horizontally from GUI: Y
+
+Flip an image vertically implementation: Y
+Script command to flip an image vertically: Y
+Flip an image vertically from GUI: Y
+
+Brighten/darken image implementation: Y
+Script command to bright/darken image: Y
+Brighten/darken image from GUI: Y
+
+Blur an image implementation: Y
+Script command to blur an image: Y
+Blur an image from GUI: Y
+
+Sharpen an image implementation: Y
+Script command to sharpen an image: Y
+Sharpen an image from GUI: Y
+
+Sepia implementation: Y
+Script command for sepia: Y
+Sepia from GUI: Y
+
+Histogram visualization from GUI: Y
+
+Program:
+
+Program runs by running main? Y
+Program runs correctly using -file option? Y
+Program runs correctly using -text option? Y
+Program runs correctly (opens GUI) with no command-line options? Y
