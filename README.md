@@ -1,5 +1,4 @@
-# CS 5010: Assignment 6
-## Image Editing Application
+# Image Editing Application
 *** 
 This application follows a Model View Controller design pattern. The image acts as the Model in our design, and its interface provides some public methods to manipulate it. In the previous assignment, Pixel was a separate class, and its attributes needed public-getters to access individual channels. In the current implementation, Pixel is a static inner class, thus eliminating the need for public-getters and eliminating the possibility of unnecessary data access to the controller. We have implemented a new class in the Model to act as an image cache keeping track of image objects against the names provided in the user input. This cache gets cleared once the controller restarts. With this change, we have eliminated the need for the controller to store image data; instead, it will only need an image object pertinent to a particular operation. We have implemented a command design pattern to accommodate new image transformation operations. This implementation required a new model image extending the previous version.
 
