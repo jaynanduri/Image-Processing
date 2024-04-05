@@ -1,0 +1,29 @@
+load JD.ppm jay
+brighten 50 jay jay-bright
+save script-images/JD-50-bright.png jay-bright
+horizontal-flip jay jay-h
+save script-images/JD-horizontal-flip.jpg jay-h
+vertical-flip jay-h jay-v
+save script-images/JD-horizontal-vertical-flip.jpg jay-v
+greyscale value-component jay jay-value
+save script-images/JD-grey-value.jpg jay-value
+greyscale intensity-component jay jay-intensity
+save script-images/JD-grey-intensity.jpg jay-intensity
+greyscale luma-component jay jay-luma
+save script-images/JD-grey-luma.jpg jay-luma
+rgb-split jay jay-red jay-green jay-blue
+save script-images/JD-grey-red.jpg jay-red
+save script-images/JD-grey-green.jpg jay-green
+save script-images/JD-grey-blue.jpg jay-blue
+rgb-combine jay-tint jay-red jay-green jay-blue
+save script-images/JD-red-tint.png jay-tint
+image-blur jay jay-blur
+save script-images/JD-blur.png jay-blur
+image-sharpen jay jay-sharp
+save script-images/JD-sharp.jpg jay-sharp
+grey-scaled jay jay-grey
+save script-images/JD-greyscaled.jpg jay-grey
+sepia jay jay-sepia
+save script-images/JD-sepia.jpg jay-sepia
+dither jay jay-dither
+save script-images/JD-dither.bmp jay-dither
